@@ -1,0 +1,20 @@
+*.iml
+.gradle
+.idea
+.DS_Store
+/build
+captures/
+.externalNativeBuild
+.cxx
+local.properties
+.agents/
+docs/
+UpscaleYuk_Blueprints.md
+
+# Android subproject ignore
+UpscaleYUK/.gradle/
+UpscaleYUK/build/
+UpscaleYUK/*/build/
+UpscaleYUK/local.properties
+UpscaleYUK/.cxx/
+UpscaleYUK/.externalNativeBuild/
