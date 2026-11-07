@@ -7,7 +7,7 @@ find_package(ncnn REQUIRED)
 
 # 2. Shared library proyek
 add_library(${CMAKE_PROJECT_NAME} SHARED
-    native-lib.cpp
+    realesrgan_jni.cpp
 )
 
 # 3. Link NCNN, Vulkan API, Bitmap JNI, dan Android System Libs
